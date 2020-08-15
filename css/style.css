@@ -1,0 +1,185 @@
+/* .seletor {
+    propriedade: valor;
+} */
+/* para inserir comentários
+ no html e css */
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+ body{
+    font-family: 'Raleway', sans-serif;
+ }
+
+ /* Tela inicial */
+
+.banner{
+  background: url(../img/img_workshop_reprograma/darlene.jpg) center no-repeat;
+  background-size: cover;
+  height: 90vh; 
+  text-align: center;
+  padding-top: 16rem;
+  color: white;
+}
+.titulo{ 
+    font-size: 3rem;
+}
+.texto {
+ font-size: 1.5rem;
+margin: 1rem;
+}
+
+.botao{
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    border-width: 0;
+    box-shadow: 5px -1px 6px;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.botao:hover{
+    background-color: rgb(110, 32, 110);
+    color: white;
+    font-weight: 700;
+    
+}
+.botao_branco{
+    background-color: white;
+    color: rgb(119, 61, 119);
+
+}
+
+.botao_roxo{
+    background-color: rgb(119, 61, 119);
+    color: white;
+    text-align: left;  
+    
+}
+
+.linha_1{
+    margin-top: 15px;
+}
+
+
+/* sessão princial */
+
+.container{
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1080px;  
+
+}
+
+.titulo_2{
+    text-align: center;
+    color: rgb(63, 62, 62);
+    margin-top: 80px;
+
+}
+
+.tabela_descricao, .tabela_habilidade{
+    width: 20%;
+    margin:2rem;
+    display: inline-block;
+    margin: center;
+    padding: center;
+    
+}
+
+
+.tabela_descricao{
+    width: 40%;
+    text-align: left;
+    margin-left: 9rem;
+
+}
+
+.sobre_descricao_titulo{
+    margin: top;
+    color: rgb(100, 99, 99);
+}
+
+.texto_descricao{
+    margin-top: 1rem;
+    color: rgb(126, 125, 125);
+    text-align: left;
+
+}
+
+
+.tabela_habilidade{
+    vertical-align: top;
+    margin-left: 5rem;
+
+}
+.sobre_habilidades_titulo{
+    color: rgb(100, 99, 99);
+    text-align: left;
+    margin: -21px;
+    margin-top: 1px;
+
+
+}
+
+    .sobre_habilidades_lista{
+        margin-top: 3.5rem;
+    }
+
+.sobre_habilidades_lista_item{
+    color: rgb(126, 125, 125);
+    text-align: left;
+}    
+
+/* <!-- footer redes sociais --> */
+
+.footer{
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1080px;
+
+}
+
+.redes_sociais_link{
+    display: inline-block;
+    background-color: rgb(119, 61, 119);
+    width: 20%;
+    height: 180px;
+    padding: 2rem 0;
+    margin: 1rem;
+    color: white;
+}
+
+.behance.img{
+    height:50px;
+    margin-bottom: 150px;
+}
+
+.redes_sociais_link:hover{
+    background-color: rgb(110, 32, 110);
+    color: white;
+    font-weight: 700;
+    
+}
+.redes_sociais_img{
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.redes_sociais_titulo{
+    margin-bottom: 8px;
+}
+
+

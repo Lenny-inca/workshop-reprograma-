@@ -1,0 +1,141 @@
+/* MEDIUM DEVICES FROM 768px to 992px */
+
+
+@media only screen and (min-width: 768px){
+/* HEADER CONFIGURATION */
+.cabecalho{ 
+    min-height: 50vh;
+    max-height: 750px; 
+}
+
+.titulo-cabecalho{ order: -1; }
+
+.titulo-cabecalho h1{
+    font-size: 7vw;
+    line-height: 7vw;
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -ms-transform-origin: center center;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    margin-left: 30%;
+    background-image: url("../img/imagem_para_o_fundo_desktop.jpg");
+}
+
+.menu-cabecalho{ height: 50px; }
+
+#menu-hamburger{ fill: #B90302; }
+
+hr{ width: 45%; }
+/* ======================== */
+
+/* MAIN CONFIGURATION */
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.next-race, .next-race-photo{
+    position: absolute;
+    left: 55%;
+}
+
+.next-race{
+    top: 32%;
+}
+
+.next-race-photo{
+    top: 50%;
+}
+
+.next-race img,
+.next-race-photo img,
+.overlay{
+    height: 200px;
+    width: 100%;
+}
+
+.next-race-photo{
+    margin: 100px 0;
+}
+
+.bg-gray{
+    font-family: sans-serif;
+    position: relative;
+    top: -200px;
+    color: white;
+    padding: 20px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.bg-gray hr{
+      width: 90px;
+    border: 1px solid white;
+    margin: 14px 0 23px 0;
+}
+
+.bg-gray h2{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bg-gray p{
+    font-family: sans-serif;
+    width: 300px;
+    font-size: 10px;
+    text-align: left;
+    margin-top: -150px;
+}
+
+/* kimiTextoInformacoes */
+.triadeKimi{
+    justify-content: space-evenly;
+    position: relative;
+}
+.informacoes{
+align-items: center;
+}
+
+.flying{
+    align-items: center;
+    order: 3;
+  
+}
+
+.flying header{
+    margin-bottom: -180px; 
+}
+
+.kime-pe{
+    margin-left: -160px;
+    order: 2;
+}
+
+.kime-pe hr{
+    position: absolute;
+    justify-content: start;
+    width: 210px;
+    left: 10px;
+    bottom: 0;
+}
+
+.informacoes li{
+    list-style: none;
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+
+.esquerda ul{
+    margin-left: -20px;
+    text-align: end;
+    /* margin-right: 10px; */
+}
+.direita{
+    font-weight: bold;
+}
+/* kimiTextoInformacoes */
+}

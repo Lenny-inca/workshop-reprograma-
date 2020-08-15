@@ -1,0 +1,233 @@
+@media only screen and (max-width: 600px){
+/* CONTAINER CONFIGURATION */
+.container{
+  width: 80%;
+  min-width: 300px;
+}
+/* ========================  */
+
+
+/* HEADER CONFIGURATION */
+.cabecalho{ 
+  height: 100vh;
+  min-height: 750px;
+}
+
+.titulo-cabecalho{
+  font-size: 35px;
+  margin-top: 20px;
+  order: 1;
+}
+
+.menu-cabecalho{
+  height: 40px;
+  padding: 5px 10px;
+}
+
+.menu-cabecalho img{ height: 100%; }
+
+.img-cabecalho{
+  width: 100%;
+  height: 540px;
+}
+
+.img-cabecalho img{ width: 100%; }
+
+hr{
+  width: 160px;
+  order: 2;
+  margin-top: 20px;
+}
+/* ========================  */
+
+/* MAIN CONFIGURATION */
+
+/* Inicio do conteudo overlay */
+.overlay{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.overlay h3{
+  font-size: 17px;
+  height: 20px;
+  margin-bottom: 130px; 
+}
+
+.overlay svg{
+  width: 40px;
+  margin: -6% 4% 0 0;;
+
+}
+
+.overlay hr{
+  position: absolute;
+  border: 1px solid white;
+  width: 80px;
+  margin-top: 30px;
+}
+
+.overlay p{
+  width: 100%;
+  height: 18px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.overlayP{
+  font-size: 25px;
+  font-weight: bold;            
+}
+/* termino conteudo overlay */
+
+
+
+/* nexte-race */
+.born-to-race video{
+height: 200px;
+}
+
+.next-race-photo img{
+width: 70%;
+height: auto;
+z-index: 2;
+}
+
+.next-race-photo{margin: 30px 0}
+
+.next-race-hr{
+position: absolute;
+right: 0;
+top: 38%;
+z-index: 1;
+}
+
+.bg-gray{
+padding: 24px 19px 25px 19px;
+background-color: rgba(0, 0, 0, 0.700);
+color: white;
+margin-bottom: 25px
+}
+
+.bg-gray h2{
+font-size: 20px;
+font-weight: bold;
+}
+
+.bg-gray p{
+font-family: "Open Sans";
+font-size: 14px;
+}
+
+.bg-gray hr{
+width: 90px;
+border: 1px solid #b9b9b9;
+margin: 14px 0 23px 0;
+}
+/* next-race */
+
+
+/* Flying */
+.flying{
+padding: 24px 19px 25px 19px;
+margin-bottom: 25px;
+background-image: url(../img/fundo_carro_F1_PB_mobile.png);
+font-family: sans-serif; 
+}
+
+.flying h2{
+font-size: 20px;
+font-weight: bold;
+}
+
+.flying hr{
+width: 90px;
+border: 1px solid #b9b9b9;
+margin: 14px 0 23px 0;
+}
+
+.kime-pe hr{
+margin: -35% 0 0 2px;
+width: 103px;
+}
+/* Flying */
+
+
+/* Informações */
+.informacoes{
+margin-top: 30px;
+font-family: sans-serif;
+}
+
+.informacoes li{
+list-style: none;
+margin-bottom: 15px;
+}
+
+.esquerda ul{
+text-align: end;
+margin-right: 10px;
+}
+.direita{
+font-weight: bold;
+}
+/* Informações */
+
+
+/* previoRace */
+.previousRace video{
+margin-top: -15px;
+height: 200px;
+}
+/* previoRace */        
+
+
+/* Capacete */
+.secaoCapacete{
+margin-top: 25px;
+padding-bottom: 25px; 
+}
+
+.capaceteAno{
+font-size: 12px;
+font-weight: 600;
+font-family: sans-serif;
+text-transform: uppercase; 
+justify-content: center;
+align-items: center; 
+}
+
+.capaceteLinha{
+width: 100%;
+justify-content: flex-end;
+}
+.capaceteLinha hr{
+width: 170px;
+margin-top: -25px;
+}
+/* Capacete */
+
+
+/* rodape */
+.iceman{
+height: 40px;
+background: #B90302;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.iceman p{
+width: 100%;
+font-family: sans-serif;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+}
+/* rodape */
+
+/* ======================== */
+
+}
